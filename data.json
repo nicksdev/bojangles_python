@@ -1,0 +1,7 @@
+
+player = {
+    "name"  : "Bojangeles",
+    "class" : "fighter",
+    "health": 42
+
+}
