@@ -1,5 +1,20 @@
 # Main file
+import json
 import logging
+
+
+
+logging.basicConfig(filename='info.log', filemode='w', level=logging.INFO)
+
+
+json_data = open('map.json')
+x = json.load(json_data)
+json_data.close()
+print(x)
+print(type(x))
+
+
+
 
 print("Welcome to the land of Bojangles, what do you wish to do? \n")
 

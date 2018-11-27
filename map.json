@@ -1,0 +1,22 @@
+{
+
+
+
+  "map": {
+    "name": "room1",
+    "description": "welcome to room1",
+    "exit": [
+      "north",
+      "south"
+    ],
+    "mob": "",
+    "inv": []
+  }
+
+
+
+
+}
+
+
+

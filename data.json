@@ -1,7 +1,22 @@
-
-player = {
+/*
+{
     "name"  : "Bojangeles",
     "class" : "fighter",
     "health": 42
 
+}*/
+
+
+{
+  "person": {
+      // Person object
+  },
+  "relatives": [ // Mind the plural!
+      {
+           //Relative object
+      },
+      {
+           //another Relative object
+      }
+  ]
 }
