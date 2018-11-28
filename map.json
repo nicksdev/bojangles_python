@@ -2,20 +2,50 @@
 
 
 
-  "map": {
+  "room1": {
     "name": "room1",
-    "description": "welcome to room1",
+    "description": "welcome to room1, this is where the description of the room will live",
     "exit": [
       "north",
       "south"
     ],
+    "exit2": {
+      "north": "room2",
+      "south": "room3"
+    },
     "mob": "",
     "inv": []
+  },
+
+    "room2": {
+      "name": "room2",
+      "description": "welcome to room2, this is where the description of the room will live",
+      "exit": [
+        "north",
+        "south"
+      ],
+      "exit2": {
+        "north": "room2",
+        "south": "room3"
+      },
+      "mob": "",
+      "inv": []
+  },
+
+    "room3": {
+      "name": "room3",
+      "description": "welcome to room3, this is where the description of the room will live",
+      "exit": [
+        "north",
+        "south"
+      ],
+      "exit2": {
+        "north": "room2",
+        "south": "room3"
+      },
+      "mob": "",
+      "inv": []
   }
-
-
-
-
 }
 
 

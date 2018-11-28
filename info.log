@@ -1,3 +1,4 @@
-INFO:root:Input Verb = test
-INFO:root:Input Actions = 
-INFO:root:['sh
+INFO:root:Loading Room: room1
+INFO:root:Input Verb = go
+INFO:root:Actions = south
+INFO:root:Loading Room: room3
